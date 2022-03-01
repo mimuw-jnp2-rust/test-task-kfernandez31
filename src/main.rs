@@ -1,3 +1,4 @@
+#[allow(dead_code)]
 fn test() -> bool {
    false
 }
@@ -6,7 +7,7 @@ fn main() {
     println!("Hello, world!");
 }
 
-#[cfg(test)]
+#[cfg(test)] 
 mod tests {
     use super::*;
 
